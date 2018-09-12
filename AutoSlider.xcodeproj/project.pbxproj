@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E2B92C2148F2DA00CE6452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E2B92B2148F2DA00CE6452 /* ViewController.swift */; };
 		A8F354DF1E99FBCE00E652DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F354DE1E99FBCE00E652DE /* main.m */; };
 		A8F354E21E99FBCE00E652DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F354E11E99FBCE00E652DE /* AppDelegate.m */; };
-		A8F354E51E99FBCE00E652DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F354E41E99FBCE00E652DE /* ViewController.m */; };
 		A8F354E81E99FBCE00E652DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F354E61E99FBCE00E652DE /* Main.storyboard */; };
 		A8F354EA1E99FBCE00E652DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F354E91E99FBCE00E652DE /* Assets.xcassets */; };
 		A8F354ED1E99FBCE00E652DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F354EB1E99FBCE00E652DE /* LaunchScreen.storyboard */; };
@@ -32,12 +32,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04E2B92B2148F2DA00CE6452 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04E2B92D2148F3B500CE6452 /* AutoSlider-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AutoSlider-Bridging-Header.h"; sourceTree = "<group>"; };
+		04E2B92E2148F3D700CE6452 /* AutoSlider-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AutoSlider-Bridging-Header.h"; sourceTree = "<group>"; };
 		A8F354DA1E99FBCE00E652DE /* AutoSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F354DE1E99FBCE00E652DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A8F354E01E99FBCE00E652DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F354E11E99FBCE00E652DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A8F354E31E99FBCE00E652DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A8F354E41E99FBCE00E652DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A8F354E71E99FBCE00E652DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8F354E91E99FBCE00E652DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8F354EC1E99FBCE00E652DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -94,12 +95,12 @@
 		A8F354DC1E99FBCE00E652DE /* AutoSlider */ = {
 			isa = PBXGroup;
 			children = (
+				04E2B92E2148F3D700CE6452 /* AutoSlider-Bridging-Header.h */,
+				04E2B92B2148F2DA00CE6452 /* ViewController.swift */,
 				A8F3550D1E99FC1D00E652DE /* TAPageControl */,
 				A8F354F41E99FC1100E652DE /* Resources */,
 				A8F354E01E99FBCE00E652DE /* AppDelegate.h */,
 				A8F354E11E99FBCE00E652DE /* AppDelegate.m */,
-				A8F354E31E99FBCE00E652DE /* ViewController.h */,
-				A8F354E41E99FBCE00E652DE /* ViewController.m */,
 				A8F354E61E99FBCE00E652DE /* Main.storyboard */,
 				A8F354E91E99FBCE00E652DE /* Assets.xcassets */,
 				A8F354EB1E99FBCE00E652DE /* LaunchScreen.storyboard */,
@@ -139,6 +140,7 @@
 		A8F3550D1E99FC1D00E652DE /* TAPageControl */ = {
 			isa = PBXGroup;
 			children = (
+				04E2B92D2148F3B500CE6452 /* AutoSlider-Bridging-Header.h */,
 				A8F3550E1E99FC1D00E652DE /* TAAbstractDotView.h */,
 				A8F3550F1E99FC1D00E652DE /* TAAbstractDotView.m */,
 				A8F355101E99FC1D00E652DE /* TAAnimatedDotView.h */,
@@ -183,6 +185,7 @@
 					A8F354D91E99FBCD00E652DE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = BVQ5FSWE22;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -236,11 +239,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8F355191E99FC1E00E652DE /* TAPageControl.m in Sources */,
-				A8F354E51E99FBCE00E652DE /* ViewController.m in Sources */,
 				A8F355181E99FC1E00E652DE /* TADotView.m in Sources */,
 				A8F355161E99FC1E00E652DE /* TAAbstractDotView.m in Sources */,
 				A8F354E21E99FBCE00E652DE /* AppDelegate.m in Sources */,
 				A8F355171E99FC1E00E652DE /* TAAnimatedDotView.m in Sources */,
+				04E2B92C2148F2DA00CE6452 /* ViewController.swift in Sources */,
 				A8F354DF1E99FBCE00E652DE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,11 +362,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = BVQ5FSWE22;
 				INFOPLIST_FILE = AutoSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.crystal.AutoSlider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mac/Documents/GitHub/AutoImageSlider/AutoSlider/AutoSlider-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -371,11 +378,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = BVQ5FSWE22;
 				INFOPLIST_FILE = AutoSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.crystal.AutoSlider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mac/Documents/GitHub/AutoImageSlider/AutoSlider/AutoSlider-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -398,6 +408,7 @@
 				A8F354F31E99FBCF00E652DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

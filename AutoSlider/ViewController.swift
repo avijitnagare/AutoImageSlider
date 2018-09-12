@@ -16,18 +16,31 @@ class ViewController: UIViewController,UIScrollViewDelegate,TAPageControlDelegat
     var customPageControl2 = TAPageControl()
     @IBOutlet weak var scrollView: UIScrollView!
     var imageData = NSArray()
+    var lblArray = NSArray()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.imageData = ["image1.jpg", "image2.jpg","image3.jpg"]
-
+        ////Add label on Image
+        self.lblArray = ["Forest","Sunshine","Sea"]
+        
         for i in 0..<self.imageData.count {
-            print(i)
+            
             let xPos =  self.view.frame.size.width * CGFloat(i)
             let imageView = UIImageView(frame: CGRect(x:xPos, y: 0, width: self.view.frame.width, height: self.scrollView.frame.size.height))
             imageView.contentMode = .scaleAspectFill
             imageView.image = UIImage(named: self.imageData[i] as! String)
+            
+            //Add label on Image
+//            let lbl = UILabel()
+//            lbl.text = String("\(self.lblArray[i] as! String)")
+//            lbl.textColor = UIColor.green
+//            lbl.sizeToFit()
+//            lbl.center = CGPoint(x: imageView.frame.size.width  / 2,
+//                                 y: imageView.frame.size.height / 2);
+//            imageView.addSubview(lbl)
+         
             self.scrollView.addSubview(imageView)
         }
          self.scrollView.delegate = self
