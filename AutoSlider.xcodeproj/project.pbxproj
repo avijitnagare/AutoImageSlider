@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A859342174E97F00577F6A /* ObjViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A859332174E97F00577F6A /* ObjViewController.m */; };
 		04E2B92C2148F2DA00CE6452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E2B92B2148F2DA00CE6452 /* ViewController.swift */; };
 		A8F354DF1E99FBCE00E652DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F354DE1E99FBCE00E652DE /* main.m */; };
 		A8F354E21E99FBCE00E652DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F354E11E99FBCE00E652DE /* AppDelegate.m */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04A859332174E97F00577F6A /* ObjViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjViewController.m; sourceTree = "<group>"; };
 		04E2B92B2148F2DA00CE6452 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04E2B92D2148F3B500CE6452 /* AutoSlider-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AutoSlider-Bridging-Header.h"; sourceTree = "<group>"; };
 		04E2B92E2148F3D700CE6452 /* AutoSlider-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AutoSlider-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				04E2B92E2148F3D700CE6452 /* AutoSlider-Bridging-Header.h */,
 				04E2B92B2148F2DA00CE6452 /* ViewController.swift */,
+				04A859332174E97F00577F6A /* ObjViewController.m */,
 				A8F3550D1E99FC1D00E652DE /* TAPageControl */,
 				A8F354F41E99FC1100E652DE /* Resources */,
 				A8F354E01E99FBCE00E652DE /* AppDelegate.h */,
@@ -238,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A859342174E97F00577F6A /* ObjViewController.m in Sources */,
 				A8F355191E99FC1E00E652DE /* TAPageControl.m in Sources */,
 				A8F355181E99FC1E00E652DE /* TADotView.m in Sources */,
 				A8F355161E99FC1E00E652DE /* TAAbstractDotView.m in Sources */,
